@@ -1,0 +1,873 @@
+2023-08-04 08:37:20,769 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 08:37:20,884 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 08:37:20,950 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 08:37:21,030 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 08:37:21,030 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 08:37:21,065 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@16ccd2bc: startup date [Fri Aug 04 08:37:21 COT 2023]; root of context hierarchy
+2023-08-04 08:37:21,979 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 08:37:22,635 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 08:37:22,900 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 08:37:22,910 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 08:37:22,986 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 08:37:22,994 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 08:37:22,994 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1c06f19c
+2023-08-04 08:37:23,012 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 08:37:23,176 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 08:37:23,176 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 08:37:23,179 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 08:37:23,181 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 08:37:23,189 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 08:37:23,189 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 08:37:23,219 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 08:37:23,221 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 08:37:23,222 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 08:37:23,223 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 08:37:23,267 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 08:37:23,278 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 08:47:00,511 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 08:47:00,646 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 08:47:00,711 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 08:47:00,769 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 08:47:00,770 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 08:47:00,804 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 08:47:00 COT 2023]; root of context hierarchy
+2023-08-04 08:47:01,723 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 08:47:02,450 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 08:47:02,692 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 08:47:02,702 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 08:47:02,770 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 08:47:02,772 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 08:47:02,772 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@204a02a4
+2023-08-04 08:47:02,791 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 08:47:02,892 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 08:47:02,892 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3fc051ce
+2023-08-04 08:47:02,895 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 08:47:02,961 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 08:47:02,961 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 08:47:02,963 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 08:47:02,965 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 08:47:02,972 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 08:47:02,972 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 08:47:02,997 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 08:47:02,999 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 08:47:03,000 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 08:47:03,000 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 08:47:03,003 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 08:47:03,003 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 08:47:03,026 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 08:47:03,040 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 08:50:14,840 [[ec3-gtar].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - No listener found for request: (GET)/AgregarComprobante
+2023-08-04 08:50:14,841 [[ec3-gtar].HTTP_Listener_Configuration.worker.01] INFO  org.mule.module.http.internal.listener.HttpListenerRegistry - Available listeners are: [([get])/LeerComprobantes/, ([post])/AgregarComprobante/]
+2023-08-04 09:12:33,685 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:12:33,829 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 09:12:33,892 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 09:12:33,947 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 09:12:33,947 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 09:12:33,980 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 09:12:33 COT 2023]; root of context hierarchy
+2023-08-04 09:12:34,905 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 09:12:35,623 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 09:12:35,853 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 09:12:35,862 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 09:12:35,934 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 09:12:35,936 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 09:12:35,936 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3355d9ba
+2023-08-04 09:12:35,954 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 09:12:36,041 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 09:12:36,041 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@13731ff4
+2023-08-04 09:12:36,043 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 09:12:36,044 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 09:12:36,044 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@48f2d51d
+2023-08-04 09:12:36,046 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 09:12:36,108 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:12:36,108 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:12:36,111 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 09:12:36,112 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:12:36,120 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 09:12:36,120 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 09:12:36,144 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 09:12:36,146 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 09:12:36,147 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 09:12:36,147 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 09:12:36,149 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 09:12:36,150 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 09:12:36,151 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 09:12:36,151 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 09:12:36,172 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 09:12:36,183 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 09:12:52,447 [[ec3-gtar].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'de Comprobantes,
+    SUM(importe) AS Sub Total,
+    SUM(importe) * 0.18 AS IG...' at line 2 (com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException).
+Payload               : {NullPayload}
+Payload Type          : org.mule.transport.NullPayload
+Element               : /FiltrarImporte/processors/0 @ ec3-gtar:ec3-gtar.xml:39
+Element XML           : <db:select config-ref="MySQL_Configuration" doc:name="Database">
+                        <db:parameterized-query>SELECT 
+    COUNT(*) AS Cantidad de Comprobantes,
+    SUM(importe) AS Sub Total,
+    SUM(importe) * 0.18 AS IGV,
+    SUM(importe) + (SUM(importe) * 0.18) AS Importe Total
+FROM
+    comprobante
+WHERE
+    fecha BETWEEN '2023-05-01' AND '2023-06-03';</db:parameterized-query>
+                        </db:select>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'de Comprobantes,
+    SUM(importe) AS Sub Total,
+    SUM(importe) * 0.18 AS IG...' at line 2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1365)
+	at org.mule.module.db.internal.domain.executor.SelectExecutor.doExecuteQuery(SelectExecutor.java:48)
+	at org.mule.module.db.internal.domain.executor.AbstractSingleQueryExecutor$1.run(AbstractSingleQueryExecutor.java:41)
+	at org.mule.module.db.internal.domain.executor.AbstractSingleQueryExecutor.safely(AbstractSingleQueryExecutor.java:81)
+	at org.mule.module.db.internal.domain.executor.AbstractSingleQueryExecutor.execute(AbstractSingleQueryExecutor.java:35)
+	at org.mule.module.db.internal.processor.SelectMessageProcessor.doExecuteQuery(SelectMessageProcessor.java:67)
+	at org.mule.module.db.internal.processor.AbstractSingleQueryDbMessageProcessor.executeQuery(AbstractSingleQueryDbMessageProcessor.java:52)
+	at org.mule.module.db.internal.processor.AbstractDbMessageProcessor.process(AbstractDbMessageProcessor.java:81)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.processor.AsyncInterceptingMessageProcessor.process(AsyncInterceptingMessageProcessor.java:119)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.construct.DynamicPipelineMessageProcessor.process(DynamicPipelineMessageProcessor.java:55)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:88)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.interceptor.AbstractEnvelopeInterceptor.processBlocking(AbstractEnvelopeInterceptor.java:59)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.process(AbstractRequestResponseMessageProcessor.java:48)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.processor.AbstractFilteringMessageProcessor.process(AbstractFilteringMessageProcessor.java:62)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.processBlocking(AbstractRequestResponseMessageProcessor.java:57)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.process(AbstractRequestResponseMessageProcessor.java:48)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:88)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.construct.AbstractPipeline$3.process(AbstractPipeline.java:232)
+	at org.mule.module.http.internal.listener.HttpMessageProcessorTemplate.routeEvent(HttpMessageProcessorTemplate.java:76)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase$1.process(AsyncResponseFlowProcessingPhase.java:73)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase$1.process(AsyncResponseFlowProcessingPhase.java:60)
+	at org.mule.execution.ExecuteCallbackInterceptor.execute(ExecuteCallbackInterceptor.java:16)
+	at org.mule.execution.CommitTransactionInterceptor.execute(CommitTransactionInterceptor.java:35)
+	at org.mule.execution.CommitTransactionInterceptor.execute(CommitTransactionInterceptor.java:22)
+	at org.mule.execution.HandleExceptionInterceptor.execute(HandleExceptionInterceptor.java:30)
+	at org.mule.execution.HandleExceptionInterceptor.execute(HandleExceptionInterceptor.java:14)
+	at org.mule.execution.BeginAndResolveTransactionInterceptor.execute(BeginAndResolveTransactionInterceptor.java:67)
+	at org.mule.execution.ResolvePreviousTransactionInterceptor.execute(ResolvePreviousTransactionInterceptor.java:44)
+	at org.mule.execution.SuspendXaTransactionInterceptor.execute(SuspendXaTransactionInterceptor.java:50)
+	at org.mule.execution.ValidateTransactionalStateInterceptor.execute(ValidateTransactionalStateInterceptor.java:40)
+	at org.mule.execution.IsolateCurrentTransactionInterceptor.execute(IsolateCurrentTransactionInterceptor.java:41)
+	at org.mule.execution.ExternalTransactionInterceptor.execute(ExternalTransactionInterceptor.java:48)
+	at org.mule.execution.RethrowExceptionInterceptor.execute(RethrowExceptionInterceptor.java:28)
+	at org.mule.execution.RethrowExceptionInterceptor.execute(RethrowExceptionInterceptor.java:13)
+	at org.mule.execution.TransactionalErrorHandlingExecutionTemplate.execute(TransactionalErrorHandlingExecutionTemplate.java:110)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase.runPhase(AsyncResponseFlowProcessingPhase.java:59)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase.runPhase(AsyncResponseFlowProcessingPhase.java:36)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:65)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:69)
+	at com.mulesoft.mule.throttling.ThrottlingPhase.runPhase(ThrottlingPhase.java:197)
+	at com.mulesoft.mule.throttling.ThrottlingPhase.runPhase(ThrottlingPhase.java:61)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:65)
+	at com.mulesoft.gateway.http.phases.GatewayValidationPhase.runPhase(GatewayValidationPhase.java:94)
+	at com.mulesoft.gateway.http.phases.GatewayValidationPhase.runPhase(GatewayValidationPhase.java:51)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:65)
+	at org.mule.modules.cors.CorsPhase.runPhase(CorsPhase.java:104)
+	at org.mule.modules.cors.CorsPhase.runPhase(CorsPhase.java:35)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.process(PhaseExecutionEngine.java:114)
+	at org.mule.execution.PhaseExecutionEngine.process(PhaseExecutionEngine.java:41)
+	at org.mule.execution.MuleMessageProcessingManager.processMessage(MuleMessageProcessingManager.java:32)
+	at org.mule.module.http.internal.listener.DefaultHttpListener$1.handleRequest(DefaultHttpListener.java:137)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyRequestDispatcherFilter.handleRead(GrizzlyRequestDispatcherFilter.java:112)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:540)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy.run0(ExecutorPerServerAddressIOStrategy.java:126)
+	at org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy.access$100(ExecutorPerServerAddressIOStrategy.java:32)
+	at org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable.run(ExecutorPerServerAddressIOStrategy.java:149)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+********************************************************************************
+
+2023-08-04 09:14:51,963 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:14:52,079 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 09:14:52,141 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 09:14:52,209 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 09:14:52,209 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 09:14:52,241 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 09:14:52 COT 2023]; root of context hierarchy
+2023-08-04 09:14:53,202 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 09:14:53,940 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 09:14:54,187 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 09:14:54,196 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 09:14:54,261 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 09:14:54,264 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 09:14:54,264 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3355d9ba
+2023-08-04 09:14:54,280 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 09:14:54,375 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 09:14:54,375 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@13731ff4
+2023-08-04 09:14:54,378 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 09:14:54,378 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 09:14:54,378 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@48f2d51d
+2023-08-04 09:14:54,380 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 09:14:54,462 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:14:54,462 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:14:54,465 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 09:14:54,466 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:14:54,473 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 09:14:54,473 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 09:14:54,497 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 09:14:54,499 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 09:14:54,500 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 09:14:54,500 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 09:14:54,503 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 09:14:54,503 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 09:14:54,505 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 09:14:54,505 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 09:14:54,527 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 09:14:54,539 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 09:33:03,665 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:33:03,785 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 09:33:03,873 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 09:33:03,958 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 09:33:03,958 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 09:33:03,994 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 09:33:03 COT 2023]; root of context hierarchy
+2023-08-04 09:33:04,895 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 09:33:05,603 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 09:33:05,864 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 09:33:05,873 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 09:33:05,937 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 09:33:05,939 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 09:33:05,939 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3673e211
+2023-08-04 09:33:05,956 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 09:33:06,057 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 09:33:06,057 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@396c1228
+2023-08-04 09:33:06,059 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 09:33:06,059 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 09:33:06,059 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@524dd373
+2023-08-04 09:33:06,061 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 09:33:06,062 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ConsultarComprobantes
+2023-08-04 09:33:06,062 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@77648321
+2023-08-04 09:33:06,064 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ConsultarComprobantes.stage1
+2023-08-04 09:33:06,132 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:33:06,132 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:33:06,135 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 09:33:06,137 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:33:06,143 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 09:33:06,143 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 09:33:06,167 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 09:33:06,169 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 09:33:06,170 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 09:33:06,170 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 09:33:06,172 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 09:33:06,173 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 09:33:06,174 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 09:33:06,174 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 09:33:06,175 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ConsultarComprobantes
+2023-08-04 09:33:06,175 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ConsultarComprobantes.stage1
+2023-08-04 09:33:06,199 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 09:33:06,214 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 09:33:22,591 [[ec3-gtar].HTTP_Listener_Configuration.worker.01] ERROR org.mule.exception.DefaultMessagingExceptionStrategy - 
+********************************************************************************
+Message               : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[Apellido del cliente],
+    c.nombre AS [Nombre del cliente],
+    c.dni AS [D...' at line 2 (com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException).
+Payload               : {NullPayload}
+Payload Type          : org.mule.transport.NullPayload
+Element               : /ConsultarComprobantes/processors/0 @ ec3-gtar:ec3-gtar.xml:54
+Element XML           : <db:select config-ref="MySQL_Configuration" doc:name="Database">
+                        <db:parameterized-query>SELECT 
+    c.apellido AS [Apellido del cliente],
+    c.nombre AS [Nombre del cliente],
+    c.dni AS [Dni del cliente],
+    co.nro_comp AS [Nro. de Comprobante],
+    co.fecha AS [Fecha de Emisión],
+    co.importe AS [Sub Total],
+    co.importe * 0.18 AS [IGV],
+    co.importe + (co.importe * 0.18) AS [Importe]
+FROM
+    comprobante co
+JOIN
+    cliente c ON co.codcli = c.codcli
+WHERE
+    c.apellido = 'MENDOZA AYALA' AND c.nombre = 'LUIS' AND c.dni = 40567564;</db:parameterized-query>
+                        </db:select>
+--------------------------------------------------------------------------------
+Root Exception stack trace:
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[Apellido del cliente],
+    c.nombre AS [Nombre del cliente],
+    c.dni AS [D...' at line 2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:403)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2439)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1365)
+	at org.mule.module.db.internal.domain.executor.SelectExecutor.doExecuteQuery(SelectExecutor.java:48)
+	at org.mule.module.db.internal.domain.executor.AbstractSingleQueryExecutor$1.run(AbstractSingleQueryExecutor.java:41)
+	at org.mule.module.db.internal.domain.executor.AbstractSingleQueryExecutor.safely(AbstractSingleQueryExecutor.java:81)
+	at org.mule.module.db.internal.domain.executor.AbstractSingleQueryExecutor.execute(AbstractSingleQueryExecutor.java:35)
+	at org.mule.module.db.internal.processor.SelectMessageProcessor.doExecuteQuery(SelectMessageProcessor.java:67)
+	at org.mule.module.db.internal.processor.AbstractSingleQueryDbMessageProcessor.executeQuery(AbstractSingleQueryDbMessageProcessor.java:52)
+	at org.mule.module.db.internal.processor.AbstractDbMessageProcessor.process(AbstractDbMessageProcessor.java:81)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.processor.AsyncInterceptingMessageProcessor.process(AsyncInterceptingMessageProcessor.java:119)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.construct.DynamicPipelineMessageProcessor.process(DynamicPipelineMessageProcessor.java:55)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:88)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.interceptor.AbstractEnvelopeInterceptor.processBlocking(AbstractEnvelopeInterceptor.java:59)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.process(AbstractRequestResponseMessageProcessor.java:48)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.processor.AbstractFilteringMessageProcessor.process(AbstractFilteringMessageProcessor.java:62)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:98)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.processBlocking(AbstractRequestResponseMessageProcessor.java:57)
+	at org.mule.processor.AbstractRequestResponseMessageProcessor.process(AbstractRequestResponseMessageProcessor.java:48)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.processor.BlockingProcessorExecutor.executeNext(BlockingProcessorExecutor.java:88)
+	at org.mule.processor.BlockingProcessorExecutor.execute(BlockingProcessorExecutor.java:59)
+	at org.mule.execution.ExceptionToMessagingExceptionExecutionInterceptor.execute(ExceptionToMessagingExceptionExecutionInterceptor.java:27)
+	at org.mule.execution.MessageProcessorNotificationExecutionInterceptor.execute(MessageProcessorNotificationExecutionInterceptor.java:112)
+	at org.mule.execution.MessageProcessorExecutionTemplate.execute(MessageProcessorExecutionTemplate.java:44)
+	at org.mule.construct.AbstractPipeline$3.process(AbstractPipeline.java:232)
+	at org.mule.module.http.internal.listener.HttpMessageProcessorTemplate.routeEvent(HttpMessageProcessorTemplate.java:76)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase$1.process(AsyncResponseFlowProcessingPhase.java:73)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase$1.process(AsyncResponseFlowProcessingPhase.java:60)
+	at org.mule.execution.ExecuteCallbackInterceptor.execute(ExecuteCallbackInterceptor.java:16)
+	at org.mule.execution.CommitTransactionInterceptor.execute(CommitTransactionInterceptor.java:35)
+	at org.mule.execution.CommitTransactionInterceptor.execute(CommitTransactionInterceptor.java:22)
+	at org.mule.execution.HandleExceptionInterceptor.execute(HandleExceptionInterceptor.java:30)
+	at org.mule.execution.HandleExceptionInterceptor.execute(HandleExceptionInterceptor.java:14)
+	at org.mule.execution.BeginAndResolveTransactionInterceptor.execute(BeginAndResolveTransactionInterceptor.java:67)
+	at org.mule.execution.ResolvePreviousTransactionInterceptor.execute(ResolvePreviousTransactionInterceptor.java:44)
+	at org.mule.execution.SuspendXaTransactionInterceptor.execute(SuspendXaTransactionInterceptor.java:50)
+	at org.mule.execution.ValidateTransactionalStateInterceptor.execute(ValidateTransactionalStateInterceptor.java:40)
+	at org.mule.execution.IsolateCurrentTransactionInterceptor.execute(IsolateCurrentTransactionInterceptor.java:41)
+	at org.mule.execution.ExternalTransactionInterceptor.execute(ExternalTransactionInterceptor.java:48)
+	at org.mule.execution.RethrowExceptionInterceptor.execute(RethrowExceptionInterceptor.java:28)
+	at org.mule.execution.RethrowExceptionInterceptor.execute(RethrowExceptionInterceptor.java:13)
+	at org.mule.execution.TransactionalErrorHandlingExecutionTemplate.execute(TransactionalErrorHandlingExecutionTemplate.java:110)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase.runPhase(AsyncResponseFlowProcessingPhase.java:59)
+	at org.mule.execution.AsyncResponseFlowProcessingPhase.runPhase(AsyncResponseFlowProcessingPhase.java:36)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:65)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:69)
+	at com.mulesoft.mule.throttling.ThrottlingPhase.runPhase(ThrottlingPhase.java:197)
+	at com.mulesoft.mule.throttling.ThrottlingPhase.runPhase(ThrottlingPhase.java:61)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:65)
+	at com.mulesoft.gateway.http.phases.GatewayValidationPhase.runPhase(GatewayValidationPhase.java:94)
+	at com.mulesoft.gateway.http.phases.GatewayValidationPhase.runPhase(GatewayValidationPhase.java:51)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.phaseSuccessfully(PhaseExecutionEngine.java:65)
+	at org.mule.modules.cors.CorsPhase.runPhase(CorsPhase.java:104)
+	at org.mule.modules.cors.CorsPhase.runPhase(CorsPhase.java:35)
+	at org.mule.execution.PhaseExecutionEngine$InternalPhaseExecutionEngine.process(PhaseExecutionEngine.java:114)
+	at org.mule.execution.PhaseExecutionEngine.process(PhaseExecutionEngine.java:41)
+	at org.mule.execution.MuleMessageProcessingManager.processMessage(MuleMessageProcessingManager.java:32)
+	at org.mule.module.http.internal.listener.DefaultHttpListener$1.handleRequest(DefaultHttpListener.java:137)
+	at org.mule.module.http.internal.listener.grizzly.GrizzlyRequestDispatcherFilter.handleRead(GrizzlyRequestDispatcherFilter.java:112)
+	at org.glassfish.grizzly.filterchain.ExecutorResolver$9.execute(ExecutorResolver.java:119)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeFilter(DefaultFilterChain.java:284)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.executeChainPart(DefaultFilterChain.java:201)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.execute(DefaultFilterChain.java:133)
+	at org.glassfish.grizzly.filterchain.DefaultFilterChain.process(DefaultFilterChain.java:112)
+	at org.glassfish.grizzly.ProcessorExecutor.execute(ProcessorExecutor.java:77)
+	at org.glassfish.grizzly.nio.transport.TCPNIOTransport.fireIOEvent(TCPNIOTransport.java:540)
+	at org.glassfish.grizzly.strategies.AbstractIOStrategy.fireIOEvent(AbstractIOStrategy.java:112)
+	at org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy.run0(ExecutorPerServerAddressIOStrategy.java:126)
+	at org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy.access$100(ExecutorPerServerAddressIOStrategy.java:32)
+	at org.mule.module.http.internal.listener.grizzly.ExecutorPerServerAddressIOStrategy$WorkerThreadRunnable.run(ExecutorPerServerAddressIOStrategy.java:149)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+********************************************************************************
+
+2023-08-04 09:34:40,346 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:34:40,461 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 09:34:40,524 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 09:34:40,594 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 09:34:40,594 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 09:34:40,625 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 09:34:40 COT 2023]; root of context hierarchy
+2023-08-04 09:34:41,496 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 09:34:42,190 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 09:34:42,434 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 09:34:42,443 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 09:34:42,510 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 09:34:42,512 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 09:34:42,512 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@3673e211
+2023-08-04 09:34:42,530 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 09:34:42,629 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 09:34:42,629 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@396c1228
+2023-08-04 09:34:42,631 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 09:34:42,632 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 09:34:42,632 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@524dd373
+2023-08-04 09:34:42,634 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 09:34:42,634 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ConsultarComprobantes
+2023-08-04 09:34:42,634 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@77648321
+2023-08-04 09:34:42,636 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ConsultarComprobantes.stage1
+2023-08-04 09:34:42,699 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:34:42,699 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:34:42,702 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 09:34:42,704 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:34:42,711 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 09:34:42,711 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 09:34:42,733 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 09:34:42,736 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 09:34:42,737 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 09:34:42,737 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 09:34:42,739 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 09:34:42,739 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 09:34:42,740 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 09:34:42,740 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 09:34:42,742 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ConsultarComprobantes
+2023-08-04 09:34:42,742 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ConsultarComprobantes.stage1
+2023-08-04 09:34:42,765 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 09:34:42,778 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 09:46:35,452 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:46:35,599 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 09:46:35,681 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 09:46:35,767 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 09:46:35,767 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 09:46:35,802 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 09:46:35 COT 2023]; root of context hierarchy
+2023-08-04 09:46:36,806 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 09:46:37,542 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 09:46:37,818 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 09:46:37,829 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 09:46:37,898 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 09:46:37,901 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 09:46:37,901 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@408d12fc
+2023-08-04 09:46:37,919 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 09:46:38,023 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 09:46:38,023 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@674fd531
+2023-08-04 09:46:38,025 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 09:46:38,026 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 09:46:38,026 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1a22c1ba
+2023-08-04 09:46:38,028 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 09:46:38,028 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ConsultarComprobantes
+2023-08-04 09:46:38,028 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@c79915a
+2023-08-04 09:46:38,030 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ConsultarComprobantes.stage1
+2023-08-04 09:46:38,030 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ActualizarComprobante
+2023-08-04 09:46:38,030 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@245b0bd7
+2023-08-04 09:46:38,034 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ActualizarComprobante.stage1
+2023-08-04 09:46:38,102 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:46:38,102 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:46:38,105 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 09:46:38,107 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:46:38,114 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 09:46:38,115 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 09:46:38,146 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 09:46:38,150 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 09:46:38,152 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 09:46:38,152 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 09:46:38,155 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 09:46:38,155 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 09:46:38,157 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 09:46:38,157 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 09:46:38,158 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ConsultarComprobantes
+2023-08-04 09:46:38,158 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ConsultarComprobantes.stage1
+2023-08-04 09:46:38,159 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ActualizarComprobante
+2023-08-04 09:46:38,159 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ActualizarComprobante.stage1
+2023-08-04 09:46:38,185 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 09:46:38,197 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 09:48:20,469 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:48:20,608 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 09:48:20,678 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 09:48:20,735 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 09:48:20,735 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 09:48:20,771 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 09:48:20 COT 2023]; root of context hierarchy
+2023-08-04 09:48:21,708 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 09:48:22,406 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 09:48:22,855 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 09:48:22,864 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 09:48:22,926 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 09:48:22,928 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 09:48:22,929 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@408d12fc
+2023-08-04 09:48:22,946 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 09:48:23,044 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 09:48:23,044 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@674fd531
+2023-08-04 09:48:23,047 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 09:48:23,047 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 09:48:23,047 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1a22c1ba
+2023-08-04 09:48:23,050 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 09:48:23,050 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ConsultarComprobantes
+2023-08-04 09:48:23,051 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@c79915a
+2023-08-04 09:48:23,052 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ConsultarComprobantes.stage1
+2023-08-04 09:48:23,052 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ActualizarComprobante
+2023-08-04 09:48:23,052 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@245b0bd7
+2023-08-04 09:48:23,055 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ActualizarComprobante.stage1
+2023-08-04 09:48:23,122 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:48:23,122 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 09:48:23,125 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 09:48:23,127 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 09:48:23,134 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 09:48:23,134 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 09:48:23,157 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 09:48:23,160 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 09:48:23,160 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 09:48:23,161 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 09:48:23,163 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 09:48:23,163 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 09:48:23,165 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 09:48:23,165 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 09:48:23,166 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ConsultarComprobantes
+2023-08-04 09:48:23,166 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ConsultarComprobantes.stage1
+2023-08-04 09:48:23,167 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ActualizarComprobante
+2023-08-04 09:48:23,167 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ActualizarComprobante.stage1
+2023-08-04 09:48:23,190 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 09:48:23,206 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 10:08:30,324 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 10:08:30,443 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 10:08:30,505 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 10:08:30,574 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 10:08:30,574 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 10:08:30,605 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 10:08:30 COT 2023]; root of context hierarchy
+2023-08-04 10:08:31,480 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 10:08:32,136 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2023-08-04 10:08:32,362 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 10:08:32,371 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 10:08:32,430 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 10:08:32,432 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 10:08:32,432 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@408d12fc
+2023-08-04 10:08:32,455 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 10:08:32,541 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 10:08:32,541 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@674fd531
+2023-08-04 10:08:32,543 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 10:08:32,544 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 10:08:32,544 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1a22c1ba
+2023-08-04 10:08:32,546 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 10:08:32,547 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ConsultarComprobantes
+2023-08-04 10:08:32,547 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@c79915a
+2023-08-04 10:08:32,549 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ConsultarComprobantes.stage1
+2023-08-04 10:08:32,549 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ActualizarComprobante
+2023-08-04 10:08:32,549 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@245b0bd7
+2023-08-04 10:08:32,551 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ActualizarComprobante.stage1
+2023-08-04 10:08:32,611 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 10:08:32,611 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 10:08:32,614 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2023-08-04 10:08:32,615 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 10:08:32,622 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 10:08:32,622 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 10:08:32,651 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 10:08:32,653 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 10:08:32,654 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 10:08:32,654 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 10:08:32,657 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 10:08:32,657 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 10:08:32,658 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 10:08:32,658 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 10:08:32,659 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ConsultarComprobantes
+2023-08-04 10:08:32,659 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ConsultarComprobantes.stage1
+2023-08-04 10:08:32,660 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ActualizarComprobante
+2023-08-04 10:08:32,660 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ActualizarComprobante.stage1
+2023-08-04 10:08:32,682 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 10:08:32,694 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2023-08-04 10:18:03,633 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 10:18:03,634 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: LeerComprobantes
+2023-08-04 10:18:03,637 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8091
+2023-08-04 10:18:03,637 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: LeerComprobantes.stage1
+2023-08-04 10:18:03,817 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: AgregarComprobante
+2023-08-04 10:18:03,817 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: AgregarComprobante.stage1
+2023-08-04 10:18:04,018 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: FiltrarImporte
+2023-08-04 10:18:04,018 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: FiltrarImporte.stage1
+2023-08-04 10:18:04,220 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: ConsultarComprobantes
+2023-08-04 10:18:04,220 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: ConsultarComprobantes.stage1
+2023-08-04 10:18:04,434 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: ActualizarComprobante
+2023-08-04 10:18:04,434 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: ActualizarComprobante.stage1
+2023-08-04 10:18:04,637 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2023-08-04 10:18:04,638 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2023-08-04 10:18:04,639 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2023-08-04 10:18:04,641 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'ec3-gtar'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 10:18:04,642 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2023-08-04 10:18:04,642 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: LeerComprobantes
+2023-08-04 10:18:04,642 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: LeerComprobantes.stage1
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: AgregarComprobante
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: AgregarComprobante.stage1
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: FiltrarImporte
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: FiltrarImporte.stage1
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: ConsultarComprobantes
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: ConsultarComprobantes.stage1
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: ActualizarComprobante
+2023-08-04 10:18:04,643 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: ActualizarComprobante.stage1
+2023-08-04 10:18:04,644 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2023-08-04 10:18:04,714 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@6f7a20da: startup date [Fri Aug 04 10:08:30 COT 2023]; root of context hierarchy
+2023-08-04 10:18:04,719 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "ec3-gtar" shut down normally on: 4/08/23 10:18        *
+* Up for: 0 days, 0 hours, 9 mins, 32.102 sec                        *
+**********************************************************************
+2023-08-04 10:18:05,827 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'ec3-gtar'                              +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 10:18:05,833 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2023-08-04 10:18:05,836 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2023-08-04 10:18:05,845 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2023-08-04 10:18:05,845 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2023-08-04 10:18:05,847 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@98f3347: startup date [Fri Aug 04 10:18:05 COT 2023]; root of context hierarchy
+2023-08-04 10:18:06,019 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2023-08-04 10:18:06,101 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-tx-log\tx2.log
+2023-08-04 10:18:06,102 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx1.log and D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\.\.mule\ec3-gtar\queue-xa-tx-log\tx2.log
+2023-08-04 10:18:06,106 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2023-08-04 10:18:06,107 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: LeerComprobantes
+2023-08-04 10:18:06,107 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@60329788
+2023-08-04 10:18:06,109 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: LeerComprobantes.stage1
+2023-08-04 10:18:06,109 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: AgregarComprobante
+2023-08-04 10:18:06,110 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@2d6da6
+2023-08-04 10:18:06,112 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: AgregarComprobante.stage1
+2023-08-04 10:18:06,112 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: FiltrarImporte
+2023-08-04 10:18:06,112 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@517148c1
+2023-08-04 10:18:06,114 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: FiltrarImporte.stage1
+2023-08-04 10:18:06,114 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ConsultarComprobantes
+2023-08-04 10:18:06,114 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@6352258a
+2023-08-04 10:18:06,117 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ConsultarComprobantes.stage1
+2023-08-04 10:18:06,117 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: ActualizarComprobante
+2023-08-04 10:18:06,117 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@8cd90f5
+2023-08-04 10:18:06,120 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: ActualizarComprobante.stage1
+2023-08-04 10:18:06,130 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 10:18:06,130 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='D:\IDAT-CLASES\CICLO5\Aplicaciones con Enfoque Orientado a Servicios\Semana 10\EC3-GARCIA-TITO\.mule\apps\ec3-gtar\ec3-gtar.xml'}]"
+2023-08-04 10:18:06,131 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'ec3-gtar'                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2023-08-04 10:18:06,133 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2023-08-04 10:18:06,133 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2023-08-04 10:18:06,140 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8091
+2023-08-04 10:18:06,142 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2023-08-04 10:18:06,142 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: LeerComprobantes
+2023-08-04 10:18:06,142 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: LeerComprobantes.stage1
+2023-08-04 10:18:06,144 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: AgregarComprobante
+2023-08-04 10:18:06,144 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: AgregarComprobante.stage1
+2023-08-04 10:18:06,145 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: FiltrarImporte
+2023-08-04 10:18:06,145 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: FiltrarImporte.stage1
+2023-08-04 10:18:06,146 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ConsultarComprobantes
+2023-08-04 10:18:06,146 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ConsultarComprobantes.stage1
+2023-08-04 10:18:06,147 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: ActualizarComprobante
+2023-08-04 10:18:06,148 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: ActualizarComprobante.stage1
+2023-08-04 10:18:06,152 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2023-08-04 10:18:06,154 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: ec3-gtar                                              *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Batch module default engine                                      *
+*   Wrapper Manager                                                  *
+**********************************************************************

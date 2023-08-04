@@ -1,0 +1,444 @@
+!SESSION 2023-08-04 08:24:28.417 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.mule.tooling.core 1 0 2023-08-04 08:26:07.325
+!MESSAGE Configuring M2_REPO variable with value: C:\Users\REYNALDO\.m2\repository
+
+!ENTRY org.mule.tooling.core 1 0 2023-08-04 08:26:07.327
+!MESSAGE Configuring M2_REPO variable with value: C:\Users\REYNALDO\.m2\repository
+
+!ENTRY org.eclipse.ui 4 4 2023-08-04 08:26:07.832
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ContentOutline.
+
+!ENTRY org.eclipse.ui 4 4 2023-08-04 08:26:07.832
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ContentOutline.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:26:10.372
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:26:10.373
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.887
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.5.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.887
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.5.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.915
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.2.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.915
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.2.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.942
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.3.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.942
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.3.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.964
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.4.ee
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:27:18.965
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.4.ee
+
+!ENTRY org.eclipse.jface 2 0 2023-08-04 08:28:16.133
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-04 08:28:16.133
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77e467d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.searchCommand,Find/Replace,
+		Find/Replace,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c63d92e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.commands.focusSearchCommand,Focus Search Command,
+		Focus Search in Palette,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3cfd9459,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+
+!ENTRY org.mule.tooling.core 4 0 2023-08-04 08:31:10.439
+!MESSAGE Could not read analytics file
+!STACK 0
+java.io.FileNotFoundException: C:\Windows\System32\.studio_id.txt (Acceso denegado)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.commons.io.FileUtils.openOutputStream(FileUtils.java:238)
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1474)
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1489)
+	at org.mule.tooling.core.analytics.StudioAnalyticsId.save(StudioAnalyticsId.java:55)
+	at org.mule.tooling.core.analytics.StudioAnalyticsId.loadValue(StudioAnalyticsId.java:44)
+	at org.mule.tooling.core.analytics.StudioAnalyticsId.getCurrentId(StudioAnalyticsId.java:27)
+	at org.mule.tooling.core.utils.CoreUtils.getStudioUniqueId(CoreUtils.java:2826)
+	at org.mule.tooling.analytics.utils.AnalyticsUtils.getDeviceId(AnalyticsUtils.java:15)
+	at org.mule.tooling.analytics.model.TrackingDescriptionFactory.getUserId(TrackingDescriptionFactory.java:60)
+	at org.mule.tooling.analytics.model.TrackingDescriptionFactory.createBaseInfo(TrackingDescriptionFactory.java:19)
+	at org.mule.tooling.analytics.model.TrackingDescriptionFactory.create(TrackingDescriptionFactory.java:42)
+	at org.mule.tooling.analytics.core.RecordsConsumer.consumeRecords(RecordsConsumer.java:64)
+	at org.mule.tooling.analytics.core.RecordsConsumer.execute(RecordsConsumer.java:51)
+	at org.mule.tooling.analytics.core.RecordsConsumer.access$0(RecordsConsumer.java:49)
+	at org.mule.tooling.analytics.core.RecordsConsumer$1.run(RecordsConsumer.java:43)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.mule.tooling.core 4 0 2023-08-04 08:31:10.440
+!MESSAGE Could not read analytics file
+!STACK 0
+java.io.FileNotFoundException: C:\Windows\System32\.studio_id.txt (Acceso denegado)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.commons.io.FileUtils.openOutputStream(FileUtils.java:238)
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1474)
+	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:1489)
+	at org.mule.tooling.core.analytics.StudioAnalyticsId.save(StudioAnalyticsId.java:55)
+	at org.mule.tooling.core.analytics.StudioAnalyticsId.loadValue(StudioAnalyticsId.java:44)
+	at org.mule.tooling.core.analytics.StudioAnalyticsId.getCurrentId(StudioAnalyticsId.java:27)
+	at org.mule.tooling.core.utils.CoreUtils.getStudioUniqueId(CoreUtils.java:2826)
+	at org.mule.tooling.analytics.utils.AnalyticsUtils.getDeviceId(AnalyticsUtils.java:15)
+	at org.mule.tooling.analytics.model.TrackingDescriptionFactory.getUserId(TrackingDescriptionFactory.java:60)
+	at org.mule.tooling.analytics.model.TrackingDescriptionFactory.createBaseInfo(TrackingDescriptionFactory.java:19)
+	at org.mule.tooling.analytics.model.TrackingDescriptionFactory.create(TrackingDescriptionFactory.java:42)
+	at org.mule.tooling.analytics.core.RecordsConsumer.consumeRecords(RecordsConsumer.java:64)
+	at org.mule.tooling.analytics.core.RecordsConsumer.execute(RecordsConsumer.java:51)
+	at org.mule.tooling.analytics.core.RecordsConsumer.access$0(RecordsConsumer.java:49)
+	at org.mule.tooling.analytics.core.RecordsConsumer$1.run(RecordsConsumer.java:43)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.486
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.486
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.487
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.487
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.487
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.487
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.487
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:31:10.487
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.core 1 0 2023-08-04 08:36:33.832
+!MESSAGE While generating classpath found that C:\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.202202091306\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2023-08-04 08:36:33.833
+!MESSAGE While generating classpath found that C:\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.202202091306\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2023-08-04 08:36:33.833
+!MESSAGE While generating classpath found that C:\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.202202091306\mule\plugins\mule-plugin-weave-3.9.4-20220127-dist\lib is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2023-08-04 08:36:33.833
+!MESSAGE While generating classpath found that C:\AnypointStudio\plugins\org.mule.tooling.server.3.9.4.ee_6.6.4.202202091306\mule\plugins\mule-plugin-weave-3.9.4-20220127-dist\lib is not a directory.
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:36:37.111
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2023-08-04 08:36:37.111
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.430
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.431
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.431
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.431
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.431
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.431
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.431
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:41:10.432
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 08:57:45.978
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 39 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:242)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:45)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 08:57:45.978
+!MESSAGE Marker id 39 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:57:46.009
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 08:57:46.009
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 08:57:46.010
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 39 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:242)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:45)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 08:57:46.010
+!MESSAGE Marker id 39 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:01:10.466
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:01:10.467
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:01:10.467
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:01:10.467
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:01:10.467
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:01:10.467
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 09:30:22.153
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 48 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:47)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 09:30:22.153
+!MESSAGE Marker id 48 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:30:22.154
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:30:22.155
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 09:30:22.155
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 48 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:47)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 09:30:22.155
+!MESSAGE Marker id 48 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:31:10.506
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:31:10.507
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:31:10.507
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:31:10.507
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:31:10.507
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:31:10.507
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 09:38:49.055
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 57 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:46)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 09:38:49.055
+!MESSAGE Marker id 57 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:38:49.056
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:38:49.056
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 09:38:49.057
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 57 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:46)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 09:38:49.057
+!MESSAGE Marker id 57 not found.
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 09:39:14.055
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 61 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:49)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 09:39:14.055
+!MESSAGE Marker id 61 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:39:14.057
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:39:14.057
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.messageflow 4 0 2023-08-04 09:39:14.057
+!MESSAGE An error occurred while creating error markers
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 61 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:49)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1807)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.updateErrorMarkers(MultiPageMessageFlowEditor.java:1798)
+	at org.mule.tooling.messageflow.editor.MultiPageMessageFlowEditor$OnValidateFinishedListener.done(MultiPageMessageFlowEditor.java:1781)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:77)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:115)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:695)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:78)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2023-08-04 09:39:14.057
+!MESSAGE Marker id 61 not found.
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.511
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.512
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.512
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.512
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.512
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.512
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.512
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.mule.tooling.analytics 1 0 2023-08-04 09:41:10.513
+!MESSAGE Analytics enable property is set with true
+
+!ENTRY org.eclipse.jface 2 0 2023-08-04 10:18:05.238
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-04 10:18:05.238
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.mule.tooling.ui.exportImageCommand,Export image,
+		Export image,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60fce698,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.keybindings.contexts.muleStudio,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.turnOnOffPreviewCommand,Turn on/off preview,
+		Turn on/off preview,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53a9167a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
